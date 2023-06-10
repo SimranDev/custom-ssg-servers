@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "type": "module",
+  "author": "Simran Singh",
   "scripts": {
     "node-server": "nodemon src/node/server.js",
     "express-server": "nodemon src/express/server.js"
