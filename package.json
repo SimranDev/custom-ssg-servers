@@ -1,6 +1,14 @@
 {
   "name": "nodejs-http",
   "version": "1.0.0",
-  "main": "server.js",
-  "license": "MIT"
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "node-server": "nodemon src/node/server.js",
+    "express-server": "nodemon src/express/server.js"
+  },
+  "devDependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22"
+  }
 }
